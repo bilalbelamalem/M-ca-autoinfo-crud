@@ -9,6 +9,8 @@ function App() {
     return (
         <div className="container">
             <h1>Méca-autoinfo</h1>
+            <h2>Bilal Belamalem</h2>
+            <h2>Yousef Mahmoudi</h2>
             <BrowserRouter>
                 <Routes>
                     <Route path='/' element={<UserList />} />
